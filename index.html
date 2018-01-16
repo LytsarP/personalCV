@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Personal CV</title>
+	<link rel="shortcut icon" href="images/my-favicon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="container-fluid">
+<header>
+	<div class="header">
+        <h1>Привіт!</h1>
+        <h2>Я Петро Лицар</h2>
+        <p>і я веб-розробник</p>
+        <button class="btn-header">Персональний проект</button>
+		<div class="fixed-form">
+			<div class="popup-form">
+				<p>Замовити</p>
+				<form>
+					<input class="form-message" name="name" type="text" id="name" placeholder="Ім'я" required>
+					<input class="form-message" name="phone" type="tel" id="phone" placeholder="Телефон" required>
+					<input class="form-message" type="text" name="message" id="message" placeholder="Послуга">
+					<input class="from-button" type="submit" form="send" value="Відправити">
+				</form>
+				<p class="close-form" id="close-form">x</p>
+			</div>
+			<div class="click-off-form"></div>
+		</div>
+	</div>
+</header>
+<main>
+	<div class="about row">
+	    <div class="col-1 col-lg-2"></div>
+		<div class="left-column about-description col-11 col-lg-4">
+            <h3><span id="trig">|</span>Про мене:</h3>
+            <div>
+				<p>Чітко дотримуюсь вимог та інструкцій для вирішення завдань;</p>
+				<p>Пріоритет на результат;</p>
+				<p>Ефективне рішення, написання доступного коду;</p>
+				<p>Увага до деталей;</p>
+				<p>Хороша стратегічна оцінка та бачення;</p>
+				<p>Ініціатива для вирішення проблем;</p>
+            </div>
+			<h6>Технології:</h6>
+			<div class="full-line">
+				<div class="about-skills-title">
+					<p>HTML5 (W3C);</p>
+					<p>85%</p>
+				</div>
+				<div class="line">
+					<div class="line-bg first" id="anim_line-first"></div>
+				</div>
+			</div>
+			<div class="full-line">
+				<div class="about-skills-title">
+					<p>CSS3 (PSD to HTML);</p>
+					<p>80%</p>
+				</div>
+				<div class="line">
+					<div class="line-bg second" id="anim_line-second"></div>
+				</div>
+			</div>
+			<div class="full-line">
+				<div class="about-skills-title">
+					<p>JavaScript (AJAX, jQuery);</p>
+					<p>50%</p>
+				</div>
+				<div class="line">
+					<div class="line-bg last" id="anim_line-last"></div>
+				</div>
+			</div>
+		</div>
+		<div class="right-column col-12 col-lg-6">
+			<img src="http://personalcv.zzz.com.ua/wp-content/themes/PersonalCV/images/my-photo.jpg" alt="Лицар Петро">
+		</div>
+	</div>
+	<div class="portfolio">
+		<h3><span id="trig-portfolio">|</span>Портфоліо</h3>
+		<div id="carouselControlsLg" class="carousel-lg carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="slide-wrapper">
+                        <a href="https://lytsarp.github.io/TopBurner/" target="_blank" class="slide-side"><img src="http://personalcv.zzz.com.ua/wp-content/themes/PersonalCV/images/for-topburner.png" alt="Лендінг спортивного харчування"></a>
+                        <a href="https://lytsarp.github.io/Sfera-Lazer/" target="_blank" class="slide-center"><img src="http://personalcv.zzz.com.ua/wp-content/themes/PersonalCV/images/for-sferalazer.png" alt="Сайт для замовника СфераЛазер"></a>
+                        <a href="https://lytsarp.github.io/UPQode/" target="_blank" class="slide-side"><img src="http://personalcv.zzz.com.ua/wp-content/themes/PersonalCV/images/for-upqode.png" alt="Дизайн від UpQode"></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slide-wrapper">
+                        <a href="https://lytsarp.github.io/TopBurner/" target="_blank" class="slide-side"><img src="http://personalcv.zzz.com.ua/wp-content/themes/PersonalCV/images/for-topburner.png" alt="Лендінг спортивного харчування"></a>
+                        <a href="https://lytsarp.github.io/Sfera-Lazer/" target="_blank" class="slide-center"><img src="http://personalcv.zzz.com.ua/wp-content/themes/PersonalCV/images/for-sferalazer.png" alt="Сайт для замовника СфераЛазер"></a>
+                        <a href="https://lytsarp.github.io/UPQode/" target="_blank" class="slide-side"><img src="http://personalcv.zzz.com.ua/wp-content/themes/PersonalCV/images/for-upqode.png" alt="Дизайн від UpQode"></a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselControlsLg" role="button" data-slide="prev">
+                <img src="http://personalcv.zzz.com.ua/wp-content/themes/PersonalCV/images/left-arrow.png" alt="Стрілка вліво">
+            </a>
+            <a class="carousel-control-next" href="#carouselControlsLg" role="button" data-slide="next">
+                <img src="http://personalcv.zzz.com.ua/wp-content/themes/PersonalCV/images/right-arrow.png" alt="Стрілка вправо">
+            </a>
+        </div>
+        <div id="carouselControlsSm" class="carousel-sm carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="slide-wrapper">
+                        <a href="https://lytsarp.github.io/TopBurner/" target="_blank" class="slide-center"><img src="http://personalcv.zzz.com.ua/wp-content/themes/PersonalCV/images/for-topburner.png" alt="Лендінг спортивного харчування"></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slide-wrapper">
+                        <a href="https://lytsarp.github.io/Sfera-Lazer/" target="_blank" class="slide-center"><img src="http://personalcv.zzz.com.ua/wp-content/themes/PersonalCV/images/for-sferalazer.png" alt="Сайт для замовника СфераЛазер"></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slide-wrapper">
+                        <a href="https://lytsarp.github.io/UPQode/" target="_blank" class="slide-center"><img src="http://personalcv.zzz.com.ua/wp-content/themes/PersonalCV/images/for-upqode.png" alt="Дизайн від UpQode"></a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselControlsSm" role="button" data-slide="prev">
+                <img src="http://personalcv.zzz.com.ua/wp-content/themes/PersonalCV/images/left-arrow.png" alt="Стрілка вліво">
+            </a>
+            <a class="carousel-control-next" href="#carouselControlsSm" role="button" data-slide="next">
+                <img src="http://personalcv.zzz.com.ua/wp-content/themes/PersonalCV/images/right-arrow.png" alt="Стрілка вправо">
+            </a>
+        </div>
+	</div>
+	<div class="portfolio-line-bottom"></div>
+</main>
+<footer>
+	<div class="contacts">
+		<h5>Буду радий допомогти чи проконсультувати</h5>
+        <div class="row">
+		    <a href="skype:lytsar_petia" class="col-12 col-md-4">Skype: lytsar_petia</a>
+		    <a href="mailto:lytsarp@gmail.com" class="col-12 col-md-4" target="_blank">E-mail: lytsarp@gmail.com</a>
+		    <a href="tel:+380990319620" class="col-12 col-md-4">Phone: (099) 031 96 20</a>
+        </div>
+		<div class="second-btn"><button class="btn-header">Персональний проект</button></div>
+	</div>
+</footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" 
+			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" 
+			crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" 
+            integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" 
+            crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" 
+            integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" 
+            crossorigin="anonymous">
+    </script>
+	<script src="js/open-form.js"></script>
+	<script src="js/form.js"></script>
+	<script src="js/animation-line.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+        /*global WOW*/
+        new WOW().init();
+    </script>
+<!--]-->
+<div style="text-align:center;font-size:11px" class="cbalink"><a href="https://www.zzz.com.ua/" title="&#1073;&#1077;&#1089;&#1087;&#1083;&#1072;&#1090;&#1085;&#1099;&#1081; &#1093;&#1086;&#1089;&#1090;&#1080;&#1085;&#1075;">&#1073;&#1077;&#1089;&#1087;&#1083;&#1072;&#1090;&#1085;&#1099;&#1081; &#1093;&#1086;&#1089;&#1090;&#1080;&#1085;&#1075;</a> ZZZ.COM.UA<br/><br/></div>
+<script type="text/javascript" src="//a5.zzz.com.ua/r1.js"></script>
+<div class="cumf_bt_form_wrapper" style="display:none">
+<form id="contact_us_mail_feedback" action="/oldTi9QvqM6ytokU9Q8ylQq" method="post">
+    <fieldset>
+        <!-- Form Name -->
+        <legend>Contact Us</legend>
+        <!-- Text input-->
+        <div class="cumf_bt_form-group">
+            <label class="col-md-4 cumf_bt_control-label" for="cumf_bt_name">name</label>
+            <div class="col-md-4">
+                <input id="cumf_bt_name" name="cumf_bt_name" type="text" placeholder="your name" class="cumf_bt_form-control cumf_bt_input-md" required />
+                <span class="cumf_bt_help-block">Please enter your name</span>
+            </div>
+        </div>
+        <!-- Text input-->
+        <div class="cumf_bt_form-group">
+            <label class="col-md-4 cumf_bt_control-label" for="cumf_bt_email">your email</label>
+            <div class="col-md-4">
+                <input id="cumf_bt_email" name="cumf_bt_email" type="text" placeholder="enter your email" class="cumf_bt_form-control cumf_bt_input-md" required />
+                <span class="cumf_bt_help-block">please enter your email</span>
+            </div>
+        </div>
+        <!-- Textarea -->
+        <div class="cumf_bt_form-group">
+            <label class="col-md-4 cumf_bt_control-label" for="cumf_bt_message">your message</label>
+            <div class="col-md-4">
+                <textarea class="cumf_bt_form-control" id="cumf_bt_message" name="cumf_bt_message">Message goes here</textarea>
+            </div>
+        </div>
+        <input type="submit" id="cumf_bt_submit" value="Send"/>
+    </fieldset>
+</form>
+</div>
+
+</body>
+</html><!-- zzz </body><!-->
