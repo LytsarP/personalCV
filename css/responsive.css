@@ -1,0 +1,33 @@
+@media (max-width: 576px) {
+	.popup-form p {
+	    font-size: 15px;
+	}
+	.popup-form {
+    	width: 75%;
+	}
+	.contacts-adress {
+	    float: none;
+	    margin: auto;
+	    width: 100%;
+	}
+	.contacts h3 {
+	    font-size: 20px;
+	    margin-left: 10px;
+    	margin-right: 10px;
+	}
+}
+@media (max-width: 768px) {
+	.contacts-adress {
+	    font-size: 20px;
+	}
+}
+@media (max-width: 992px) {
+	.right-column {
+	    display: none;
+	}
+}
+@media (min-width: 992px) {
+	.left-column {
+	    width: 60%;
+	}
+}
