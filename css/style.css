@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'Museo Sans Cyrl 300';
-	src: url('/wp-content/themes/PersonalCV/fonts/museo-sans-cyrl-300.otf');
+	src: url('/fonts/museo-sans-cyrl-300.otf');
 }
 
 @font-face {
 	font-family: 'Museo Sans Cyrl 700';
-	src: url('/wp-content/themes/PersonalCV/fonts/museo-sans-cyrl-700.otf');
+	src: url('/fonts/museo-sans-cyrl-700.otf');
 }
 * {
 	margin: 0px;
