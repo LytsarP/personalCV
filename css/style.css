@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'Museo Sans Cyrl 300';
-	src: url('../fonts/museo-sans-cyrl-300.otf');
+	src: url('/wp-content/themes/PersonalCV/fonts/museo-sans-cyrl-300.otf');
 }
 
 @font-face {
 	font-family: 'Museo Sans Cyrl 700';
-	src: url('../fonts/museo-sans-cyrl-700.otf');
+	src: url('/wp-content/themes/PersonalCV/fonts/museo-sans-cyrl-700.otf');
 }
 * {
 	margin: 0px;
@@ -193,6 +193,7 @@ a:hover {
 .about-description p {
     color: #71678e;
     margin-bottom: 0;
+    font-size: 17px;
 }
 .about-personal p {
     font-size: 30px;
@@ -206,31 +207,29 @@ a:hover {
 }
 .full-line {
     width: 100%;
-    height: 40px;
-    margin-bottom: 42px;
+    margin-bottom: 15px;
 }
 .about-skills-title {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 .line {
     border: 1px solid #ddd;
-    height: 9px;
-    padding: 2px;
+    padding: 3px 3px;
     width: 100%;
 }
 .line-bg {
     background: #e59c00;
-    height: 3px;
+    height: 5px;
 }
 .slideRight {
     animation-name: slideRight;
     -webkit-animation-name: slideRight;
-    animation-duration: 4.5s;
-    -webkit-animation-duration: 4.5s;
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
+    animation-duration: 4s;
+    -webkit-animation-duration: 4s;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
     transform-origin: 0% 0%;
     -ms-transform-origin: 0% 0%;
     -webkit-transform-origin: 0% 0%;
@@ -288,13 +287,16 @@ a:hover {
     display: flex;
 }
 .first {
-    width: 85%;
+    width: 70%;
 }
 .second {
-    width: 80%;
+    width: 65%;
+}
+.pre-last {
+    width: 20%;
 }
 .last {
-    width: 50%;
+    width: 15%;
 }
 .right-column img {
     width: 90%;
@@ -311,6 +313,8 @@ a:hover {
 .about-description h6 {
     margin-top: 35px;
     color: #000;
+    font-size: 19px;
+    font-weight: 900;
 }
 #trig, #trig-portfolio {
     color: #ffc42c;
